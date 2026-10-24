@@ -1,0 +1,32 @@
+{
+  "name": "ghes-backup-preflight",
+  "version": "1.0.0",
+  "description": "Preflight checks for a GitHub Enterprise Server (GHES) backup-utils snapshot: completeness, version-compatibility window, and database dump presence.",
+  "license": "MIT",
+  "author": "GitSecOps / MHM Digitale Lösungen UG",
+  "homepage": "https://gitsecops.de",
+  "bin": {
+    "ghes-backup-preflight": "bin/ghes-backup-preflight.js"
+  },
+  "main": "src/checks.js",
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "github-enterprise-server",
+    "ghes",
+    "backup-utils",
+    "backup",
+    "migration",
+    "preflight"
+  ]
+}
