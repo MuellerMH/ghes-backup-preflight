@@ -71,7 +71,7 @@ function printReport(report) {
     console.log(`${statusSymbol(check.status)} [${check.status}] ${check.message}`);
   }
   console.log('');
-  console.log(report.ok ? 'Ergebnis: PASS – Snapshot ist migrationsbereit.' : 'Ergebnis: FAIL – Snapshot ist nicht migrationsbereit, siehe FAILs oben.');
+  console.log(report.ok ? 'Ergebnis: PASS, Snapshot ist migrationsbereit.' : 'Ergebnis: FAIL, Snapshot ist nicht migrationsbereit, siehe FAILs oben.');
 }
 
 /**
